@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator2</title>
+
+    <style>
+h1{
+    text-align: center;
+}
+#text-area{
+    width: 298px;
+    height: 80px;
+    text-align: right;
+    
+   
+}
+.B-name{
+     width:70px;
+     height: 70px;
+    background-color: rgb(33, 32, 32) ;
+    padding: 15px;
+    margin: 2px;
+    color: white;
+    font-size: 30px;
+    
+}
+.B-name1{
+    width: 70px;
+     height: 70px;
+    background-color: rgb(129, 67, 228) ;
+    padding: 15px;
+    margin: 2px;
+    color: white;
+    font-size: 30px;
+}
+.B-name2{
+    width: 70px;
+     height: 70px;
+    background-color: rgb(255, 200, 0) ;
+    padding: 15px;
+    margin: 2px;
+    color: white;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+     
+   
+}
+
+.calculator:hover{
+   
+   box-shadow: 3px 4px 7px ;
+}
+
+.B-name:hover{
+  background-color: rgba(97, 0, 0, 0.79);
+}
+.B-name1:hover{
+  background-color: rgba(97, 0, 0, 0.79);
+}
+.B-name2:hover{
+  background-color: rgba(97, 0, 0, 0.79);
+}
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1><br>
+    <div class="container">
+    
+<div class="calculator"> 
+         <input type="text" id="text-area">
+
+    <div class="button">
+            <div class="button-icon">
+        <input type="submit" class="B-name" value="C" >
+        <input type="submit" class="B-name" value="+/-" >
+        <input type="submit" class="B-name" value="%" >
+        <input type="submit" class="B-name1" value="/" >
+         </div>
+         <div class="button-icon">
+        <input type="submit" class="B-name" value="7" >
+        <input type="submit" class="B-name" value="8" >
+        <input type="submit" class="B-name" value="9" >
+        <input type="submit" class="B-name1" value="*" >
+</div>
+<div class="button-icon">
+        <input type="submit" class="B-name" value="4" >
+        <input type="submit" class="B-name" value="5" >
+        <input type="submit" class="B-name" value="6" >
+        <input type="submit" class="B-name1" value="-" >
+</div>
+<div class="button-icon">
+        <input type="submit" class="B-name" value="1" >
+        <input type="submit" class="B-name" value="2" >
+        <input type="submit" class="B-name" value="3" >
+        <input type="submit" class="B-name1" value="+" >
+</div>
+<div class="button-icon1">
+        <input type="submit" class="B-name" value="0" >
+        <input type="submit" class="B-name" value="." >
+        <input type="submit" class="B-name" value="Del" >
+        <input type="submit" class="B-name2" value="=" >
+</div>
+     </div>
+
+</div>
+
+ 
+    </div>
+
+    
+</body>
+</html>
